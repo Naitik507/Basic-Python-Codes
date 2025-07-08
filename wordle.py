@@ -1,3 +1,5 @@
+import random as r
+
 def process():
 
     count = 0
@@ -16,7 +18,7 @@ def process():
     "crane", "dealt", "evoke", "fable", "gloom", "hound", "inlet", "jaunt", "knead", "liver",
     "mimic", "ninth", "opine", "purse", "quake", "risky", "shine", "truce", "upset", "vapor"]
 
-        word = words[9] # I was not able to access the "Random" Module!
+        word = r.choice(words)
 
         inp = input("Enter your guess: ")
         
